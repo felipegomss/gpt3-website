@@ -9,7 +9,10 @@ const manrope = Manrope({ subsets: ["latin"] });
 
 export default function App() {
   return (
-    <main className="max-w-7xl m-auto px-4" style={manrope.style}>
+    <main
+      className="max-w-7xl m-auto px-4 gap-24 flex flex-col"
+      style={manrope.style}
+    >
       <Header />
       <Home />
       <About />
