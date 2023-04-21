@@ -4,12 +4,12 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      <div className="grid md:grid-cols-2">
-        <aside className="flex flex-col gap-9 ">
-          <h1 className="text-6xl font-extrabold leading-tight	">
+      <div className="grid md:grid-cols-2 gap-10">
+        <aside className="flex flex-col gap-16">
+          <h1 className="text-6xl font-extrabold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-orange-400">
             Let’s Build Something amazing with GPT-3 OpenAI
           </h1>
-          <p className="text-blue-200 text-lg">
+          <p className="text-blue-200 text-xl">
             Yet bed any for traveling assistance indulgence unpleasing. Not
             thoughts all exercise blessing. Indulgence way everything joy
             alteration boisterous the attachment. Party we years to order allow
